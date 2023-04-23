@@ -8,6 +8,9 @@ body{
 }
 
 /* ---------------Navbar-------------------- */
+#nav{
+    width: 100vw;
+}
  #nav ul li {
     font-size: 20px;
     padding: 8px 6px; 
@@ -27,14 +30,16 @@ body{
 
 
 .heading{
-    color: #fff;
-    font-size: 2.5rem;
+    color: rgb(110, 231, 54);
+    font-size: 4.0rem;
     text-shadow: 0 , .3rem , .5rem rgba(0, 0, 0, .3);
 
 }
-.home{
-    min-height: 100vh;
+#home{
     width: 100vw;
+    min-height: 90vh;
+}
+.home{
     position: relative;
     padding: 0 1rem;
      display: flex;
@@ -44,10 +49,26 @@ body{
      align-items: center;
      overflow: hidden !important;
 }
-
+.home img{
+    width: 250px;
+    height: 250px;
+}
 .home .slogan{
     color: #eee;
     font-size: 2rem;
+}
+
+.home span{
+    margin-right: 15%;
+}
+.home span , p{
+   color: #fff;
+   font-size: 25px;
+}
+
+.home .myBtn:hover{
+    background-color: rgb(110, 231, 54) !important;
+    color: red !important;
 }
 
 
