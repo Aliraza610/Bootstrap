@@ -5,6 +5,18 @@
 
 body{
     background-color: #2e6f6f;
+    width: 100vw;
+}
+
+.heading{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: rgb(110, 231, 54);
+    font-size: 4.0rem;
+    text-shadow: 0 , .3rem , .5rem rgba(0, 0, 0, .3);
+
 }
 
 /* ---------------Navbar-------------------- */
@@ -29,7 +41,7 @@ body{
 /* ------------------- Home ----------------- */
 
 
-.heading{
+.h-name{
     color: rgb(110, 231, 54);
     font-size: 4.0rem;
     text-shadow: 0 , .3rem , .5rem rgba(0, 0, 0, .3);
@@ -95,4 +107,74 @@ body{
     100%{
         transform: rotate(360deg);
     }
+}
+
+
+/* Section About */
+
+#about{
+    width: 100vw;
+    min-height: 90vh;
+    background-color: #fff;
+}
+
+/* Section Service*/
+
+#service{
+    width: 100vw;
+    min-height: 90vh;
+
+}
+
+
+
+.carousel-inner .service-imgs{
+    margin: auto;
+}
+
+
+/* Section Team */
+#team{
+    width: 100vw;
+    min-height: 90vh;
+    background-color: #fff;
+}
+
+
+
+#team .card-group{
+    margin-top: 100px;
+}
+
+
+/* Section Projects */
+#project{
+    width: 100vw;
+    min-height: 90vh;
+}
+
+
+/* Section Contact */
+#contact{
+    width: 100vw;
+    min-height: 90vh;
+    background-color: #fff;
+}
+
+
+/* Section Footer */
+#footer{
+   text-align: center;
+}
+
+#footer .footer{
+    margin-bottom: 0;
+}
+
+#footer .icons i{
+    padding: 2px 15px;
+}
+
+#footer .icons i:hover{
+    color: red;
 }
