@@ -303,6 +303,31 @@ body{
     background-color: #fff;
 }
 
+.contact .contact-container{
+    width: 50vw;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.contact .contact-container .form-label{
+    font-size: 2rem;
+}
+
+.contact .contact-container .form-control .form-select{
+     box-shadow: 0  0.3rem 0.5rem rgba(0,0,0,0.2);
+}
+
+.contact .contact-container .c-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact .contact-container .myBtn:hover{
+    background-color: rgb(110, 231, 54) !important;
+    color: red !important;
+}
 
 /* Section Footer */
 #footer{
