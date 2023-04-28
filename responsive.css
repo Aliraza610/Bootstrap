@@ -1,0 +1,208 @@
+@media (max-width: 1350px) {
+    .team .row{
+        padding: 0% !important;
+    }
+    .team .row .col-3{
+        flex: 0% !important;
+    }
+}
+
+
+@media screen and (max-width:998px) {
+    #nav{
+        margin-bottom: 20px;
+    }
+
+    .home img{
+        margin-top: 10%;
+    }
+    .team .row{
+        padding: 0% !important;
+    }
+    .team .row .col-3{
+        flex: 0% !important;
+    }
+    .team .team-container{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .team .team-container .card{
+        height: 22rem;
+        width: 17rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .team .team-container .card .team-image{
+        padding-top: 2rem;
+    }
+    .team .team-container .col  .team-image img{
+        height: 8rem;
+        width: 8rem;
+    }
+    .team .team-container .card-body{
+        padding: 0;
+    }
+    .team .team-container .card .team-info .card-title{
+        font-size: 1.5rem;
+    }
+    .team .team-container .card .team-info span{
+        font-size: 1.2rem;
+    }
+    .team .team-container .card .team-info .icons{
+        font-size: 2rem;
+    }
+
+    .team .team-container .card::before , .team .team-container .card::after{
+        height: 10rem;
+        width: 10rem;
+    }
+    
+    .team .team-container .card::before{
+        background: #ca4f08;
+        top: -2rem; right: -3rem;  
+    }
+    
+    .team .team-container .card::after{
+        background: #ca4f08;
+        bottom: -2rem ; left: -3rem;
+    }
+}
+
+@media (max-width:980px) {
+    .home img{
+        margin-top: 15%;
+    }
+    #service .carousel-item h5{
+        margin-bottom: 40px;
+        font-size: 1.3rem;
+    }
+    .carousel-item p{
+        display: none;
+    }
+    .carousel-inner .service-imgs{
+        width: 50vw !important;
+    }
+    .service .service-content h3{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .team .team-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team .row .col{
+        margin-bottom: 0 !important;
+        padding: 0% !important;
+    }
+    .team .row .col-3{
+        margin-bottom: 0 !important;
+        padding: 0% !important;
+    }
+    .team .team-container .card{
+        margin-top: 5px;
+        -webkit-box-reflect: below .1rem linear-gradient(transparent 100% , #fff);
+        margin-left: 0;
+       
+    }
+}
+
+@media (max-width:850px) {
+    .home img{
+        margin-top: 15%;
+    }
+    .home .slogan{
+        font-size: 1.5rem;
+    }
+
+    .about .about-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #service .carousel-item .carousel-caption{
+        display: none;
+    }
+    .service{
+        text-align: center;
+    }
+    .service .service-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service .service-content a{
+        text-decoration: none;
+    }
+
+    .service .service-content .btn{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .contact .contact-container .form-label{
+        font-size: 1.4rem;
+    }
+
+    #footer .footer{
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:550px) {
+    .heading{
+        font-size: 3rem;
+    }
+    .home img{
+        margin-top: 15%;
+    }
+    .home .h-name{
+        font-size: 2rem;
+    }
+    .home p{
+        font-size: 1.5rem;
+    }
+    .home .slogan{
+        font-size: 1.2rem;
+    }
+    .home .btn{
+        font-size: 1rem;
+    }
+    .home .fa-cog{
+        font-size: 20rem;
+    }
+    .about .about-row .about-content h2{
+        font-size: 1.2rem;
+    }
+    .about .about-row .about-content span{
+        font-size: 1.6rem;
+    }
+    .about .about-row .about-content p{
+        font-size: 1.1rem;
+    }
+    .service .service-content h3{
+        font-size: 1.8rem;
+    }
+    .service .service-content p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .service .service-content .btn {
+        font-size: 1.1rem;
+    }
+    .team .team-container .card {
+        text-align: center;
+        margin: auto;
+    }
+    #footer .footer{
+        font-size: 1.2rem;
+        margin-top: 2px;
+    }
+}
