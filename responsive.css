@@ -137,6 +137,10 @@
         justify-content: center;
         align-items: center;
     }
+    .service .service-direction{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .service .service-content a{
         text-decoration: none;
     }
@@ -186,6 +190,10 @@
     }
     .about .about-row .about-content p{
         font-size: 1.1rem;
+    }
+    .service .service-direction{
+        display: flex;
+        flex-direction: column-reverse;
     }
     .service .service-content h3{
         font-size: 1.8rem;
